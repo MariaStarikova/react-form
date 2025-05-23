@@ -1,0 +1,5 @@
+@import '../../constants/constants.scss';
+
+.signup {
+  @extend %flex-columns;
+}
