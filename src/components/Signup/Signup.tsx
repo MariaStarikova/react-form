@@ -1,6 +1,6 @@
-import type { ValidationRules } from '../../hooks/useFormValidation';
-import { Icon } from '../../icons/Icon';
-import { Form, type FormField } from '../Form/Form';
+import type { ValidationRules } from '../../hooks';
+import { Icon } from '../../icons';
+import { Form, type FormField } from '../Form';
 
 const mockSignupInputs: FormField[] = [
   {

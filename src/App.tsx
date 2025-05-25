@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Signin } from './components/Signin/Signin';
-import { Signup } from './components/Signup/Signup';
+import { Signin } from './components/Signin';
+import { Signup } from './components/Signup';
 import './App.scss';
 
 function App() {

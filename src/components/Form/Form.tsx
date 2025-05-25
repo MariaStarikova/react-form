@@ -1,7 +1,7 @@
 import type React from 'react';
 
-import { Input } from '../Input/Input.tsx';
-import { useFormValidation, type ValidationRules } from '../../hooks/useFormValidation.tsx';
+import { Input } from '../Input';
+import { useFormValidation, type ValidationRules } from '../../hooks';
 import './Form.scss';
 
 type InputVariant = 'default' | 'filled' | 'unstyled';

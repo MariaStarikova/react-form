@@ -1,5 +1,5 @@
-import { Form, type FormField } from '../Form/Form';
-import type { ValidationRules } from '../../hooks/useFormValidation.tsx';
+import { Form, type FormField } from '../Form';
+import type { ValidationRules } from '../../hooks';
 import './Signin.scss';
 
 const mockSigninInputs: FormField[] = [
