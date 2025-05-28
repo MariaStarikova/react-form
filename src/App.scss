@@ -1,0 +1,33 @@
+@import './styles/main.scss';
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  @extend %flex-columns;
+  // position: relative;
+}
+
+.form__switcher {
+  @extend %flex-rows;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.active__button {
+  background-color: #f1f3f5;
+  color: #000;
+  border: solid #000 1px;
+}
+
+.passive__button {
+  background-color: #f1f3f5;
+  color: #000;
+  border: solid #f1f3f5 1px;
+}
